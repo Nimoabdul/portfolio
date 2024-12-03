@@ -1,0 +1,112 @@
+.experience {
+  padding: 80px 20px;
+  background-color: #2F3E46; /* Darker sage tone for the background */
+  color: #E3B04B; /* Golden text */
+}
+
+.section-title-experience {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 50px;
+  color: #E3B04B; /* Accent color for titles */
+  margin-top: 10px;
+}
+
+.experience-container {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: 0 auto;
+  gap: 40px;
+}
+
+.experience-tabs {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  min-width: 250px;
+  border-right: 2px solid #1d302d; /* Clean, accent divider */
+}
+
+.experience-tab {
+  padding: 15px 20px;
+  border: none;
+  background: none;
+  text-align: left;
+  font-size: 1.2rem;
+  color: #E3B04B;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.experience-tab:hover,
+.experience-tab.active {
+  color: #FFFFFF; /* White for active tabs */
+  background-color: #1d302d; /* Light green for active tab highlight */
+  border-left: 4px solid #E3B04B;
+}
+
+.experience-content {
+  flex: 2;
+  padding-left: 20px;
+}
+
+.experience-content h3 {
+  font-size: 1.8rem;
+  margin-bottom: 10px;
+  color: #E3B04B;
+}
+
+.experience-content .company {
+  color: #3BD193;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.experience-date {
+  font-size: 1rem;
+  color: #A8B2B8; /* Subtle gray for dates */
+  margin-bottom: 15px;
+}
+
+.experience-content ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.experience-content ul li {
+  font-size: 1rem;
+  line-height: 1.8;
+  padding-left: 25px;
+  position: relative;
+  color: #FFFFFF; /* White for readability */
+}
+
+.experience-content ul li::before {
+  content: "•";
+  position: absolute;
+  left: 0;
+  color: #1d302d; /* Accent bullet points */
+  font-size: 1.5rem;
+}
+.resume-link-container {
+  margin-top: 20px;
+}
+
+.resume-link {
+  display: inline-block;
+  padding: 10px 20px;
+  color: #e3b04b;
+  background-color: #1d302d;
+  border: 2px solid #e3b04b;
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 1rem;
+  transition: all 0.3s ease;
+}
+
+.resume-link:hover {
+  background-color: #e3b04b;
+  color: #1d302d;
+  text-decoration: none;
+}
