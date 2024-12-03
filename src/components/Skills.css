@@ -27,7 +27,6 @@
   }
   
   .skill {
-    background-color: #1d302d;
     padding: 20px;
     border-radius: 8px;
     max-width: 300px;
@@ -53,4 +52,31 @@
    color: #c8d1da;
     max-width: 600px;
   }
+  .skill-icon {
+    width: 80px; /* Adjust size as needed */
+    height: 80px;
+    margin-bottom: 15px;
+    object-fit: contain; /* Ensures the image scales nicely */
+  }
+  .tools-header {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #c8d1da;
+  }
   
+  .tools-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+  }
+  
+  .tool {
+    width: auto;
+    text-align: center;
+  }
+  
+  .tool-icon {
+    width: auto;
+    height: 100px;
+  }
