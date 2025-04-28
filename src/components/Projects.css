@@ -1,36 +1,40 @@
+/* Projects Section */
 .projects {
   background-color: #2F3E46;
-  padding: 60px 20px;
-  margin-left: 120px; /* Add left margin to push away from the navbar */
+  padding: 80px 30px;
+  margin-left: 120px; /* Space from navbar */
 }
 
-
-
 .section-title {
-  font-size: 2.5rem;
+  font-size: 2.8rem;
   color: #e3b04b;
-  margin-bottom: 40px;
+  margin-bottom: 50px;
   text-align: center;
   margin-right: 180px;
+  position: relative;
 }
 
 .projects-container {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 30px;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 40px;
+  padding-top: 20px;
 }
 
 .project-card {
   background-color: #1d302d;
-  padding: 20px;
-  border-radius: 10px;
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
-  
+  padding: 25px;
+  border-radius: 15px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .project-card:hover {
-  transform: translateY(-10px);
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  transform: translateY(-8px);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.25);
 }
 
 .project-content {
@@ -38,9 +42,9 @@
 }
 
 .project-title {
-  font-size: 1.5rem;
-  color: #fff;
-  margin-bottom: 10px;
+  font-size: 1.8rem;
+  color: #ffffff;
+  margin-bottom: 15px;
 }
 
 .project-title a {
@@ -54,14 +58,16 @@
 }
 
 .project-description {
-  font-size: 1rem;
+  font-size: 1.1rem;
   color: #A8B2B8;
-  margin-bottom: 15px;
+  margin-bottom: 20px;
+  line-height: 1.6;
 }
 
 .project-technologies {
   list-style: none;
   padding: 0;
+  margin: 0 0 20px 0;
   display: flex;
   flex-wrap: wrap;
   gap: 10px;
@@ -70,26 +76,30 @@
 .project-technologies li {
   background-color: #27423f;
   color: #3BD193;
-  padding: 5px 10px;
-  border-radius: 5px;
-  font-size: 0.9rem;
+  padding: 6px 12px;
+  border-radius: 20px;
+  font-size: 0.85rem;
+  font-weight: 600;
 }
 
 .project-links {
-  margin-top: 15px;
-  font-size: medium;
-
+  margin-top: auto;
+  display: flex;
+  gap: 15px;
 }
 
 .project-link {
-  color: #e3b04b;
+  background-color: #e3b04b;
+  color: #1d302d;
   text-decoration: none;
-  margin-right: 15px;
+  padding: 8px 16px;
+  border-radius: 20px;
   font-size: 1rem;
-  transition: color 0.3s ease;
+  font-weight: bold;
+  transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 .project-link:hover {
-  color: #ccd6f6;
-  text-decoration: none;
+  background-color: #3BD193;
+  color: #1d302d;
 }

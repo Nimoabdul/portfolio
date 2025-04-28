@@ -11,7 +11,7 @@ const Experience = () => {
       date: "Jan 2023 - Aug 2023",
       details: [
         "Monitored and responded to incidents using the Remedy 7 ITSM system.",
-        "1st line support for all Data Centre-based systems and applications to established SLAs.",
+        "Provided 1st line support for all Data Centre-based systems and applications to established SLAs.",
         "Executed and reported on scheduled tasks for daily operations and systems support.",
         "Led a project to optimize server response time by 25%.",
         "Managed server builds and decommissions, ensuring tasks were executed correctly.",
@@ -22,8 +22,8 @@ const Experience = () => {
       title: "Server",
       date: "May 2022 - Jan 2023",
       details: [
-        "Greeting and seating guests daily as well as taking orders, serving dishes, removing dinnerware, managing reservations, and handling phone calls and customer queries about the restaurant and menu.",
-        "Assisting various restaurant staff when necessary and used selling techniques to increase sales.",
+        "Greeted and seated guests daily, handled reservations and managed customer queries about the restaurant and menu.",
+        "Assisted various restaurant staff and used selling techniques to increase sales.",
       ],
     },
     {
@@ -31,10 +31,9 @@ const Experience = () => {
       title: "Barista",
       date: "Sep 2022 - Jan 2023",
       details: [
-        "Welcoming customers, informing them about specials or new items, answering questions, and accepting orders and payments.",
-        "Preparing foods, such as sandwiches or baked goods, and grinding and blending coffee beans, brewing coffee and tea, and serving items to customers.",
-        "Packaging food and beverages for sale.",
-        "Cleaning and restocking work areas, emptying trash, and sanitizing equipment and utensils.",
+        "Welcomed customers, explained specials, accepted orders and payments.",
+        "Prepared foods, brewed coffee and tea, served items, and packaged for sale.",
+        "Cleaned and restocked work areas, sanitized equipment and utensils.",
       ],
     },
   ];
@@ -67,7 +66,7 @@ const Experience = () => {
           </ul>
           <div className="resume-link-container">
             <a
-              href="C:\Users\nimoa\personal-website\public\resume.pdf"
+              href="/resume.pdf"
               target="_blank"
               rel="noopener noreferrer"
               className="resume-link"
@@ -82,4 +81,3 @@ const Experience = () => {
 };
 
 export default Experience;
-

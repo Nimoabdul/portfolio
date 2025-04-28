@@ -4,33 +4,24 @@ import "./Projects.css";
 const Projects = () => {
   const projects = [
     {
+      title: "Memory Card Game",
+      description:
+        "A fun memory matching card game built with React to improve concentration and memory skills.",
+      technologies: ["React", "JavaScript", "CSS"],
+      link: "https://memory-card-game-olive-mu.vercel.app/",
+    },
+    {
       title: "Dictionary Website",
       description:
-        "The website allows users to find word definitions and synonyms by integrating an API to fetch real-time language data.",
+        "A website that allows users to find word definitions and synonyms, using real-time language data from an API.",
       technologies: ["React", "Node.js", "CSS"],
       link: "https://finalproject-app.vercel.app/",
-    },
-    {
-      title: "Project 2",
-      description:
-        "Explaination",
-      technologies: ["Python", "scikit-learn", "Pandas"],
-      link: "https://github.com/Nimoabdul/wine-quality-predictor",
-
-    },
-    {
-      title: "Project 3",
-      description:
-        "Explaination",
-      technologies: ["Python", "Matplotlib", "Pandas", "Seaborn"],
-      link: "https://github.com/Nimoabdul/housing-analysis",
-      github: "https://github.com/Nimoabdul/housing-analysis",
     },
   ];
 
   return (
     <section className="projects" id="projects">
-      <h2 className="section-title">What I've Done</h2>
+      <h2 className="section-title">Projects I've Built</h2>
       <div className="projects-container">
         {projects.map((project, index) => (
           <div key={index} className="project-card">
