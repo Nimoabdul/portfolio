@@ -2,7 +2,7 @@
 .projects {
   background-color: #2F3E46;
   padding: 80px 30px;
-  margin-left: 120px; /* Space from navbar */
+  margin-left: 120px;
 }
 
 .section-title {
@@ -102,4 +102,6 @@
 .project-link:hover {
   background-color: #3BD193;
   color: #1d302d;
+  text-decoration: none;
 }
+
