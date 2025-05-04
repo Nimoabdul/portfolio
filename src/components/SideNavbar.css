@@ -25,18 +25,18 @@
   }
   
   .nav-link:hover .nav-icon {
-    transform: scale(1.1); /* Slight zoom effect when hovering */
+    transform: scale(1.1); 
     transition: all 0.3s ease;
   }
   
   .nav-icon {
-    width: 40px; /* Adjust to desired size */
+    width: 40px; 
     height: 40px;
     border-radius: 50%;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
   }
   
-  /* Highlight color for the links when hovered */
+
   .nav-link:hover {
     background-color: #4b8f29;
     border-radius: 50%;
@@ -46,7 +46,7 @@
   /* Mobile responsiveness */
   @media (max-width: 768px) {
     .nav-icon {
-      width: 30px; /* Smaller icon size on mobile */
+      width: 30px; 
       height: 30px;
     }
   }

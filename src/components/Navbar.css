@@ -13,34 +13,34 @@
 }
 
 .navbar-scrolled {
-  background-color: #1a1a1d; /* Darker background when scrolled */
-  padding: 10px 40px; /* Shrink padding */
+  background-color: #1a1a1d; 
+  padding: 10px 40px;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
 }
 
 .navbar-container {
   display: flex;
-  align-items: center; /* Vertically centers the items */
-  justify-content: space-between; /* Spreads logo and links apart */
+  align-items: center;
+  justify-content: space-between; 
   width: 100%;
-  max-width: 1200px; /* Optional: Keeps content centered on large screens */
-  margin: 0 auto; /* Centers the navbar */
-  padding: 0 1rem; /* Adds horizontal spacing */
+  max-width: 1200px; 
+  margin: 0 auto; 
+  padding: 0 1rem; 
 }
 
 .logo {
-  font-size: 1.8rem; /* Adjust for better visibility */
-  color: #E3B04B; /* Matches your color scheme */
-  text-decoration: none; /* Removes underline */
-  display: flex; /* Helps align the logo in the navbar */
+  font-size: 1.8rem;
+  color: #E3B04B;
+  text-decoration: none; 
+  display: flex;
   text-align: left;
   
-  padding: 0.5rem 0; /* Adds breathing space */
+  padding: 0.5rem 0; 
   cursor: pointer;  
   font-family: "Calibre", "Inter", "San Francisco", "SF Pro Text", -apple-system, system-ui, sans-serif; /* Brittany's font */
 }
 .navbar .logo:hover {
-  color: #3bd193; /* Optional hover color */
+  color: #3bd193; 
   transition: color 0.3s ease;
   text-decoration: none; 
 }
@@ -62,5 +62,5 @@
 }
 
 .nav-links li a:hover {
-  color: #3bd193; /* Highlight color on hover */
+  color: #3bd193; 
 }

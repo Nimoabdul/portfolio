@@ -112,6 +112,7 @@
 .resume-link:hover {
   background-color: #e3b04b;
   color: #1d302d;
+  text-decoration: none;
 }
 
 /* Animations */

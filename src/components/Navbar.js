@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { Link } from "react-scroll"; // Import Link from react-scroll
+import { Link } from "react-scroll"; 
 import "./Navbar.css";
 
 const Navbar = () => {
@@ -7,7 +7,7 @@ const Navbar = () => {
 
   useEffect(() => {
     const handleScroll = () => {
-      setScrolled(window.scrollY > 50); // Change navbar when scrolled more than 50px
+      setScrolled(window.scrollY > 50); 
     };
 
     window.addEventListener("scroll", handleScroll);
@@ -26,7 +26,7 @@ const Navbar = () => {
               to="about"
               smooth={true}
               duration={500}
-              offset={-70} // Adjust for fixed navbar height
+              offset={-70}
               className="nav-links"
             >
               About

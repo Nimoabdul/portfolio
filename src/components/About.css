@@ -3,7 +3,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #2F3E46; /* Soft background color */
+  background-color: #2F3E46;
   padding: 80px 20px;
 }
 
@@ -54,7 +54,7 @@
 }
 
 .highlight {
-  color: #E3B04B; /* Highlight color for certain keywords */
+  color: #E3B04B;
   font-weight: bold;
 }
 

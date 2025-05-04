@@ -2,7 +2,7 @@
   background-color: #2F3E46;
   color: #fff;
   text-align: center;
-  padding: 80px 20px; /* Increased top & bottom padding */
+  padding: 80px 20px; 
 }
 
 .skills-header h1 {
@@ -23,7 +23,7 @@
   justify-content: center;
   gap: 20px;
   flex-wrap: wrap;
-  margin-bottom: 80px; /* NEW: Adds space between skills and tools */
+  margin-bottom: 80px; 
 }
 
 .skill {
